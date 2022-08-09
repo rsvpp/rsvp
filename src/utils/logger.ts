@@ -40,7 +40,7 @@ export class Logger{
     this.log(text,"white")
   }
 
-  done(text: string){
+  done(){
     const endTime = new Date().getTime()
     this.log(`Done! Finish in ${endTime - this.startTime}ms`,'green')
   }
